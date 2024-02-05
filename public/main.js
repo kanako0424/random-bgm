@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const clientId = 'a397c7fb0a1a489a802411025ab63268'; // あなたのSpotifyアプリケーションのClient IDを入力してください
-    const redirectUri = 'https://random-bgm.web.app'; // あなたのSpotifyアプリケーションのRedirect URIを入力してください
+    const redirectUri = 'https://random-bgm.web.app/'; // あなたのSpotifyアプリケーションのRedirect URIを入力してください
     const apiUrl = 'https://api.spotify.com/v1';
 
     const randomButton = document.getElementById('random-button');
